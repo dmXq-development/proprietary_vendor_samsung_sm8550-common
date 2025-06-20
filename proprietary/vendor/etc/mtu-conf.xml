@@ -272,6 +272,9 @@ mtuTableEntry attributes:
 <!-- TELE2 LT (Lithuania) VoWiFi -->
     <mtuTableEntry numeric="24603" mtu="1280" rat="4"/>
 
+<!-- LMT LV (Latvia) VoWiFi -->
+    <mtuTableEntry numeric="24701" mtu="1280" rat="4"/>
+
 <!-- TELE2 LV (Latvia) VoWiFi -->
     <mtuTableEntry numeric="24702" mtu="1280" rat="4"/>
 
@@ -444,10 +447,10 @@ mtuTableEntry attributes:
     <mtuTableEntry numeric="310950" mtu="1430"/>
     <mtuTableEntry numeric="310980" mtu="1430"/>
     <mtuTableEntry numeric="311180" mtu="1430"/>
-    <mtuTableEntry numeric="312670" mtu="1430"/>
-    <mtuTableEntry numeric="313100" mtu="1430"/>
-    <mtuTableEntry numeric="313130" mtu="1430"/>
-    <mtuTableEntry numeric="313140" mtu="1430"/>    
+    <mtuTableEntry numeric="312670" mtu="1342"/>
+    <mtuTableEntry numeric="313100" mtu="1342"/>
+    <mtuTableEntry numeric="313130" mtu="1342"/>
+    <mtuTableEntry numeric="313140" mtu="1342"/>    
     <mtuTableEntry numeric="310030" mtu="1300" rat="4"/>
     <mtuTableEntry numeric="310070" mtu="1300" rat="4"/>
     <mtuTableEntry numeric="310090" mtu="1300" rat="4"/>
@@ -586,11 +589,20 @@ mtuTableEntry attributes:
 <!-- Vodafone QATAR -->
     <mtuTableEntry numeric="42702" mtu="1390" rat="4"/>
 
-<!-- Uztelecom UZBEKISTAN -->
+<!-- Beeline Uzbekistan -->
+    <mtuTableEntry numeric="43404" mtu="1280" rat="4"/>
+
+<!-- Ucell Uzbekistan -->
+    <mtuTableEntry numeric="43405" mtu="1280" rat="4"/>
+
+<!-- Mobiuz Uzbekistan -->
+    <mtuTableEntry numeric="43407" mtu="1280" rat="4"/>
+
+<!-- Uztelecom Uzbekistan -->
     <mtuTableEntry numeric="43408" mtu="1280" rat="4"/>
 
 <!--  JPN SBM -->
-    <mtuTableEntry numeric="44020" mtu="1422"/>
+    <mtuTableEntry numeric="44020" mtu="1358"/>
 
 <!-- JPN KDDI -->
     <mtuTableEntry numeric="44050" mtu="1420"/>
@@ -738,12 +750,6 @@ mtuTableEntry attributes:
 <!-- Free Senegal -->
     <mtuTableEntry numeric="60802" mtu="1280" rat="4"/>
 
-<!-- Somnet -->
-    <mtuTableEntry numeric="63720" mtu="1440" profile="2"/>
-
-<!--Hormuud -->
-    <mtuTableEntry numeric="63750" mtu="1440" profile="2"/>
-
 <!-- Airtel Zambia -->
     <mtuTableEntry numeric="64501" mtu="1280" rat="4"/>
 
@@ -887,4 +893,10 @@ mtuTableEntry attributes:
 
 <!-- TNT - Smart - PHILIPPINES -->
     <mtuTableEntry numeric="51503" mtu="1280" profile="2"/>
+
+<!-- Almadar_LY -->
+    <mtuTableEntry numeric="60601" mtu="1358" profile="2"/>
+    
+<!-- DITO - PHILIPPINES -->
+    <mtuTableEntry numeric="51566" mtu="1280" profile="2"/>
 </mtuTableEntry>
